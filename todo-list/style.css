@@ -1,0 +1,50 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column; /* Thay đổi để căn giữa theo chiều dọc */
+            justify-content: center; /* Căn giữa theo chiều dọc */
+            align-items: center; /* Căn giữa theo chiều ngang */
+            height: 100vh;
+            background-color: #f4f4f4;
+
+
+        }
+
+        .todo-container {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            background: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .clock-container{
+            width: 300px;
+            height: 120px;
+            border-radius: 10px;
+            justify-content: center;
+            display: flex;
+            text-align: center;
+        }
+        #clock{
+            font-size: 48px;
+        }
